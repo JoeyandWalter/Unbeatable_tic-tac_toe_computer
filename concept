@@ -11,4 +11,4 @@ make a function called moveAcross that the will return the opposite side of the 
 
 
 
-#also want to make a rock paper scissors computer, this one would have to record the moves used against it in order to form a response
+also want to make a rock paper scissors computer, this one would have to record the moves used against it in order to form a response, probably functions created for pattern recognition, maybe even a function that counts keeps up a count of every single sign used against it and another that analyzes the overall patterns of moves
