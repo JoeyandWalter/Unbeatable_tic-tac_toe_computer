@@ -1,1 +1,10 @@
 https://www.quora.com/Is-there-a-way-to-never-lose-at-Tic-Tac-Toe
+https://qph.is.quoracdn.net/main-qimg-ab0639be987ae5e9b0340dd09ae7deaa?convert_to_webp=true
+
+"""
+corner = corner1 or corner2 or corner3 or corner4
+if first_move = center then moveTo corner
+if first_move = corner then moveTo center
+if first_move = edge1 then moveTo corner1
+
+make a function called moveAcross that the will return the opposite side of the board
