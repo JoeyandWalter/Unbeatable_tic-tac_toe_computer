@@ -3,12 +3,23 @@ https://qph.is.quoracdn.net/main-qimg-ab0639be987ae5e9b0340dd09ae7deaa?convert_t
 
 """
 corner = corner1 or corner2 or corner3 or corner4
-if first_move = center then moveTo corner
-if first_move = corner then moveTo center
-if first_move = edge1 then moveTo corner1
+if move1 = center then moveTo corner
+if move1 = corner then moveTo center
+if move1 = edge1 then moveTo corner1
 
-make a function called moveAcross that the will return the opposite side of the board
+move1 = center
+if move2 = edge:
+  move3 = corner on other side of board
+if move2 = corner:
+  move3 = opposite corner
+  
+move1 = corner
+if move2 = center:
+  move3 = opposite corner
+
+  
+#make a function called moveAcross that the will return the opposite side of the board
 
 
 
-also want to make a rock paper scissors computer, this one would have to record the moves used against it in order to form a response, probably functions created for pattern recognition, maybe even a function that counts keeps up a count of every single sign used against it and another that analyzes the overall patterns of moves
+#also want to make a rock paper scissors computer, this one would have to record the moves used against it in order to form a response, probably functions created for pattern recognition, maybe even a function that counts keeps up a count of every single sign used against it and another that analyzes the overall patterns of moves
