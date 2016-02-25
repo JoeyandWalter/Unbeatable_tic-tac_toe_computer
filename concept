@@ -8,3 +8,7 @@ if first_move = corner then moveTo center
 if first_move = edge1 then moveTo corner1
 
 make a function called moveAcross that the will return the opposite side of the board
+
+
+
+#also want to make a rock paper scissors computer, this one would have to record the moves used against it in order to form a response
